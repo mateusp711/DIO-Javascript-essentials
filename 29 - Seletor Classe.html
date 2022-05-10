@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor Classe</title>
+
+    <script>
+        function exibirTexto() {
+            var campo = document.getElementsByClassName("texto")[2]; 
+            
+            alert(campo.innerHTML); 
+
+        }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="exibirTexto()">Clique Aqui</button>
+
+    <h1 class="texto">TItulo</h1>
+    <h2 class="texto">Subtitulo</h2>
+    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tenetur magnam, eligendi unde harum possimus, tempore aliquid animi id dolor deserunt odio, sapiente vero? Illum cumque iure assumenda fuga ea!</p>
+
+
+</body>
+</html>
